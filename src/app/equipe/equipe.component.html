@@ -1,0 +1,21 @@
+
+  <li class="list-group-item">
+    <h5>{{ equipe._nom }}
+      <a href="#" title="Supprimer">
+        <i class="material-icons" (click)="onSupprimerEquipe(equipe._nom)">
+         clear
+        </i>
+      </a>
+    </h5>
+    <!--equipe._tabPersonnes-->
+    <ul class="list-group list-group-flush">
+      <app-personneequipe
+        *ngFor="let personne of equipe._tabPersonnes"
+        [person]="personne"
+        [equipe]="equipe"
+      >
+      </app-personneequipe>
+    </ul>
+    <!--<button class="btn btn-sm btn-dark btn-outline-danger btn-block" (click)="onSupprimerEquipe(equipe._nom)">Supprimer</button>-->
+
+  </li>

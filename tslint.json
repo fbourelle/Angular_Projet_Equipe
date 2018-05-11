@@ -33,6 +33,7 @@
       140
     ],
     "member-access": false,
+    "no-arg": true,
     "member-ordering": [
       true,
       {
@@ -44,7 +45,6 @@
         ]
       }
     ],
-    "no-arg": true,
     "no-bitwise": true,
     "no-console": [
       true,

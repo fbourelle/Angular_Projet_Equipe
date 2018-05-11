@@ -1,0 +1,11 @@
+<li class="list-group-item">
+    <strong>{{ person._nom}}</strong> {{ person._prenom }}
+  <a href="#" title="Retirer">
+    <i class="material-icons" (click)="onSupprimerPersonneEquipe(equipe._nom, person._id)">
+      remove_circle_outline
+    </i>
+  </a>
+
+  <!--<button class="btn btn-sm btn-outline-danger" (click)="onSupprimerPersonneEquipe(equipe._nom, person._id)">Supprimer de l'équipe</button>-->
+</li>
+

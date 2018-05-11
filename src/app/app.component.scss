@@ -1,0 +1,64 @@
+h3, h5 {
+  font-family: 'Crete Round', serif;
+}
+
+.divListUser, .divCrud{
+  padding: 20px;
+  margin-top:20px;
+}
+
+.divCrud{
+  background-color: #eeeeee;
+}
+
+.divListUser{
+  background-color: #26c6da;
+}
+
+.divTeam{
+  background-color: #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+form {
+  font-family: 'Muli', sans-serif;
+}
+
+label {
+  font-family: 'Muli', sans-serif;
+}
+
+#tabListUser td{
+  height: 45px;
+  width:120px;
+}
+
+button {
+  margin-top: 0.5em;
+}
+
+li {
+  margin: 10em;
+}
+
+.scrollable {
+  overflow: auto;
+  max-height: 45vh;
+}
+
+.border-left-white {
+  border-left: 1px solid white;
+}
+
+small {
+  color: lightgray;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+
